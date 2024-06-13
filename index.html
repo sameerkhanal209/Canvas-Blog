@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas Blog</title>
+  </head>
+  <body>
+    <div id="main">
+
+      <header class="main-header-wrapper">
+        <div class="container">
+          <div class="main-header">
+
+            <div class="logo">
+                Canvas<strong>Blog.</strong>
+            </div>
+            <nav class="menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                  <div class="input">
+                    <span class="icon-search">
+                      <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+                    </span>
+                    <input type="text" placeholder="Search" />
+                  </div>
+                </li>
+                <li><a href="#" class="cta btn">Signup</a></li>
+              </ul>
+
+          </div>
+        </div>
+        </nav>
+
+      </header>
+
+
+      <main>
+
+        <div class="container">
+          
+          <section class="hero">
+
+            <h1>
+              <strong>Welcome to Canvas Blog.</strong> Read about all the good stuff here.
+            </h1>
+  
+            <div class="newsletter-wrapper">
+              <form class="newsletter">
+                <div class="input-btn-group">
+                  <input type="email" id="email" name="email" placeholder="Enter your email" />
+                  <button type="submit" class="cta btn">Subscribe</button>
+                </div>
+                <div class="paragraph">
+                  Enjoy the latest articles and news from Canvas Blog.
+                </div>
+              </form>
+            </div>
+  
+          </section>
+  
+          <div>
+            <section class="splide posts-holder trending">
+              <header>
+                <h2>See what's <span>Trending</span>.</h2>
+    
+                <div class="slider-control splide__arrows">
+                  <button class="prev-slide"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
+                  <button class="next-slide"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M13 18l6 -6" /><path d="M13 6l6 6" /></svg></button>
+                </div>
+              </header>
+              
+              <div class="splide-wrapper">
+                <div class="splide__track">
+                  <div class="posts-listing splide__list">
+
+                    <article class="post splide__slide">
+    
+                      <a href="#">
+                      <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1718125188885-7ce699512931" alt="Post Image">
+                        <div class="post-category">
+                          <a class="category" href="#">Technology</a>
+                        </div>
+                      </div>
+                    </a>
+                      
+                      <div class="post-tags">
+                        <a href="#">#Tech</a>
+                        <a href="#">#Innovation</a>
+                      </div>
+    
+                      <a class="post-title" href="#">
+                        <h2>Post title is here let's goo</h2>
+                      </a>
+    
+                      <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aliquam, doloribus iure sed voluptas porro corporis saepe harum eligendi. Laborum saepe a sequi molestias obcaecati aliquam veniam maiores sit odio!</p>
+                    
+                    </article>
+    
+                  </div>
+                </div>
+              </div>
+
+            </section>
+          </div>
+
+        </div>
+
+      </main>
+      <footer>
+
+        <div class="newsletter">
+
+        </div>
+        <div class="footer-bar">
+
+        </div>
+      </footer>
+
+    </div>
+
+
+    <script>
+
+        let tempdata = [
+    {
+        "title": "Exploring the Future of AI",
+        "description": "Artificial intelligence is transforming industries with unprecedented speed. Discover the latest advancements and future possibilities in AI.",
+        "image": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df",
+        "category": "Technology",
+        "tags": ["AI", "Future"]
+    },
+    {
+        "title": "The Rise of Quantum Computing",
+        "description": "Quantum computing promises to revolutionize data processing with its unique principles. Learn how this technology works and its potential applications.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        "category": "Science",
+        "tags": ["Quantum Computing", "Innovation"]
+    },
+    {
+        "title": "Top Programming Languages in 2024",
+        "description": "Stay ahead in the tech world by mastering the most in-demand programming languages this year. Find out which ones are dominating the industry.",
+        "image": "https://images.unsplash.com/photo-1718046254335-d9ff832c9c3c",
+        "category": "Education",
+        "tags": ["Programming", "Languages"]
+    },
+    {
+        "title": "Sustainable Energy Solutions for the Future",
+        "description": "As climate change becomes a pressing issue, sustainable energy solutions are crucial. Explore the latest innovations in renewable energy.",
+        "image": "https://plus.unsplash.com/premium_photo-1709309934434-448b98065f66",
+        "category": "Environment",
+        "tags": ["Sustainability", "Renewable Energy"]
+    },
+    {
+        "title": "The Impact of 5G on Mobile Technology",
+        "description": "5G technology is set to revolutionize mobile connectivity with faster speeds and lower latency. Discover how it will impact various industries.",
+        "image": "https://images.unsplash.com/photo-1718110190589-a97fb4143663",
+        "category": "Technology",
+        "tags": ["5G", "Mobile Technology"]
+    },
+    {
+        "title": "Advancements in Biotechnology",
+        "description": "Biotechnology is making strides in healthcare and agriculture. Learn about the latest breakthroughs and their implications for the future.",
+        "image": "https://images.unsplash.com/photo-1718267586715-c484519893d5",
+        "category": "Health",
+        "tags": ["Biotechnology", "Healthcare"]
+    },
+    {
+        "title": "The Evolution of Smart Homes",
+        "description": "Smart homes are becoming increasingly sophisticated with new technologies. Explore the latest trends and how they are enhancing our living spaces.",
+        "image": "https://plus.unsplash.com/premium_photo-1663840297086-dbd47bccef74",
+        "category": "Lifestyle",
+        "tags": ["Smart Home", "Innovation"]
+    },
+    {
+        "title": "Cybersecurity in the Modern World",
+        "description": "With the rise of digital threats, cybersecurity is more important than ever. Learn about the latest strategies to protect yourself and your data.",
+        "image": "https://images.unsplash.com/photo-1718112131885-8089da6ebd46",
+        "category": "Technology",
+        "tags": ["Cybersecurity", "Data Protection"]
+    }
+]
+
+    let original_post = document.querySelector('.post')
+
+    tempdata.map((data) => {
+        let post = original_post.cloneNode(true)
+
+        let postImage = post.querySelector('.post-image img')
+        let postCategory = post.querySelector('.post-category .category')
+        let postTags = post.querySelector('.post-tags')
+        let postTitle = post.querySelector('.post-title h2')
+        let postDescription = post.querySelector('.post-description')
+
+        postImage.src = data.image
+        postCategory.innerText = data.category
+        postTitle.textContent = data.title
+        postDescription.textContent = data.description
+
+        data.tags.map((tag) => {
+            let tagElement = document.createElement('a')
+            tagElement.href = '#'
+            tagElement.textContent = tag
+            postTags.appendChild(tagElement)
+        })
+
+        document.querySelector('.posts-listing').appendChild(post)
+    })
+
+    original_post.remove()
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
